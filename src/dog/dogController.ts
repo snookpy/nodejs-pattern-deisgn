@@ -14,6 +14,7 @@ export const getAllDog =
 
 
             
+
             res.json(dogs)
         } catch (error) {
             res.status(500).json({})
